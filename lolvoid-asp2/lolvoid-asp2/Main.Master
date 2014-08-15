@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="lolvoid_asp2.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="Content/bootstrap-select.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/prettify.css" rel="stylesheet" />
+    <link href="Content/tablecloth.css" rel="stylesheet" />
+    <link href="Content/bootstrap-tables.css" rel="stylesheet" />
+    <!-- Optional theme -->
+    <%--<link rel="stylesheet" href="/Content/bootstrap-theme.min.css" />--%>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/bootstrap-select.min.js"></script>
+    <script src="Scripts/jquery.tablecloth.js"></script>
+    <script src="Scripts/jquery.tablesorter.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="../" class="navbar-brand">LolVoid Development</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+</body>
+</html>
