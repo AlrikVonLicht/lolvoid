@@ -77,7 +77,7 @@
 }
 .bootstrap-select.btn-group .btn .filter-option {
   display: inline-block;
-  overflow: hidden;
+  /*overflow: hidden;*/
   width: 100%;
   text-align: left;
 }

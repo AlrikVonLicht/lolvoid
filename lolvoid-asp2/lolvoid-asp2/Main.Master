@@ -4,13 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <!-- Latest compiled and minified CSS -->
-    <link href="Content/bootstrap-select.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-select.css" rel="stylesheet" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
-    <link href="Content/prettify.css" rel="stylesheet" />
-    <link href="Content/tablecloth.css" rel="stylesheet" />
-    <link href="Content/bootstrap-tables.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
     <!-- Optional theme -->
     <%--<link rel="stylesheet" href="/Content/bootstrap-theme.min.css" />--%>
 
@@ -18,7 +16,6 @@
     <script src="Scripts/jquery.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/bootstrap-select.min.js"></script>
-    <script src="Scripts/jquery.tablecloth.js"></script>
     <script src="Scripts/jquery.tablesorter.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
